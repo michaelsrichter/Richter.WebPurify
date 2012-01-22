@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------------
-// <copyright file="TestIntegrationWithServiceShould.cs" company="">
-//   
+// <copyright file="TestIntegrationWithServiceShould.cs" company="Michael S. Richter">
+//   Michael S. Richter
 // </copyright>
 // <summary>
 //   The test integration with service should.
@@ -36,7 +36,9 @@ namespace Richter.WebPurify.Tests
         private string _apiUrl = "http://api1.webpurify.com/services/rest/";
 
         /// <summary>
-        ///   The _apikey.
+        ///  You'll need your own key from Web Purify. This is a integration test key and
+        ///  will only work from a single IP address. Visit http://www.webpurify.com/ for
+        ///  more information.
         /// </summary>
         private string _apikey = "977fc3d43a46c52b873cf42ec0acc8c9";
 

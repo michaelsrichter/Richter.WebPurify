@@ -18,12 +18,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("Richter.WebPurify.Tests")]
-[assembly: AssemblyTitle("Richter.ExternalServices.Profanity")]
+[assembly: AssemblyTitle("Richter.WebPurify.Wrapper")]
 [assembly: AssemblyDescription(".NET Wrapper for Web Purify REST API")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Michael S Richter")]
-[assembly: AssemblyProduct("Richter.ExternalServices.Core")]
-[assembly: AssemblyCopyright("Copyright © Michael S Richter 2012")]
+[assembly: AssemblyCompany("Michael S. Richter")]
+[assembly: AssemblyProduct("Richter.WebPurify.Wrapper")]
+[assembly: AssemblyCopyright("Copyright © Michael S. Richter 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

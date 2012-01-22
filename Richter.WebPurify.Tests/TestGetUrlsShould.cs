@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------------
-// <copyright file="TestGetUrlsShould.cs" company="">
-//   
+// <copyright file="TestGetUrlsShould.cs" company="Michael S. Richter">
+//   Michael S. Richter
 // </copyright>
 // <summary>
 //   The test get urls should.
@@ -27,27 +27,27 @@ namespace Richter.WebPurify.Tests
         #region Constants and Fields
 
         /// <summary>
-        /// The _api url.
+        ///   The _api url.
         /// </summary>
         private string _apiUrl = "http://api1.webpurify.com/services/rest/";
 
         /// <summary>
-        /// The _apikey.
+        ///   The _apikey.
         /// </summary>
         private string _apikey = "value";
 
         /// <summary>
-        /// The _request.
+        ///   The _request.
         /// </summary>
         private WebPurifyRequest _request;
 
         /// <summary>
-        /// The _service.
+        ///   The _service.
         /// </summary>
         private IWebPurifyService _service;
 
         /// <summary>
-        /// The _text.
+        ///   The _text.
         /// </summary>
         private string _text = "string";
 
@@ -100,7 +100,14 @@ namespace Richter.WebPurify.Tests
             // arrange
             const string urlCheckFormat = "{0}?method={1}&api_key={2}&text={3}&semail={4}&sphone={5}&lang={6}";
             string expectedurl = string.Format(
-                urlCheckFormat, _apiUrl, methodname, _apikey, _text, WebPurifyUrlParameters.ToUrl(semail), WebPurifyUrlParameters.ToUrl(sphone), lang);
+                urlCheckFormat, 
+                _apiUrl, 
+                methodname, 
+                _apikey, 
+                _text, 
+                WebPurifyUrlParameters.ToUrl(semail), 
+                WebPurifyUrlParameters.ToUrl(sphone), 
+                lang);
 
             // act
             string resulturl = _request.GetCheckUrl(_text, method, semail, sphone, language);

@@ -1,6 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------------
-// <copyright file="TestRequestMethodsShould.cs" company="">
-//   
+// <copyright file="TestRequestMethodsShould.cs" company="Michael S. Richter">
+//   Michael S. Richter
 // </copyright>
 // <summary>
 //   The test request methods should.

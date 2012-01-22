@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Richter.ExternalServices.Tests")]
+[assembly: AssemblyTitle("Richter.WebPurify.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Michael S Richter")]
-[assembly: AssemblyProduct("Richter.ExternalServices.Core")]
-[assembly: AssemblyCopyright("Copyright © Michael S Richter 2012")]
+[assembly: AssemblyCompany("Michael S. Richter")]
+[assembly: AssemblyProduct("Richter.WebPurify.Tests")]
+[assembly: AssemblyCopyright("Copyright © Michael S. Richter 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
