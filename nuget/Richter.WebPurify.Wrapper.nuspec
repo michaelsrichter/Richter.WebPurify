@@ -2,13 +2,14 @@
 <package >
   <metadata>
     <id>Richter.WebPurify.Wrapper</id>
-    <version>1.0</version>
+    <version>1.2</version>
     <title>WebPurify REST API Wrapper</title>
     <authors>Michael S. Richter</authors>
     <owners>Michael S. Richter</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>.NET Wrapper for Web Purify Profanity Filter REST API</description>
-    <releaseNotes>First Version</releaseNotes>
+    <description>WebPurify is the leading profanity filtering service. Now it's easy to integrate WebPurify's API into your project.</description>
+    <summary>WebPurify™ is an accurate and efficient profanity filter web service that can be easily integrated into any internet enabled platform. With WebPurify, the profanity list updates automatically to maximize accuracy. In addition to scanning for profanity, WebPurify allows the user to add their personal list of words to filter. Read more at http://www.webpurify.com.</summary>
+	<releaseNotes>First Version</releaseNotes>
     <copyright>Copyright 2012</copyright>
     <tags>webpurify, profanity</tags>
   </metadata>
