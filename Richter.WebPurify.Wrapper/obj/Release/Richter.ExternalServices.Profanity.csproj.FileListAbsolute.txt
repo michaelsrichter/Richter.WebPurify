@@ -1,5 +1,0 @@
-C:\Users\mrichter\Documents\Visual Studio 2010\Projects\Richter.ExternalServices\Richter.ExternalServices.Profanity\bin\Release\Richter.ExternalServices.Profanity.dll
-C:\Users\mrichter\Documents\Visual Studio 2010\Projects\Richter.ExternalServices\Richter.ExternalServices.Profanity\bin\Release\Richter.ExternalServices.Profanity.pdb
-C:\Users\mrichter\Documents\Visual Studio 2010\Projects\Richter.ExternalServices\Richter.ExternalServices.Profanity\obj\Release\ResolveAssemblyReference.cache
-C:\Users\mrichter\Documents\Visual Studio 2010\Projects\Richter.ExternalServices\Richter.ExternalServices.Profanity\obj\Release\Richter.ExternalServices.Profanity.dll
-C:\Users\mrichter\Documents\Visual Studio 2010\Projects\Richter.ExternalServices\Richter.ExternalServices.Profanity\obj\Release\Richter.ExternalServices.Profanity.pdb
