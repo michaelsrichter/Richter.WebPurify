@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Richter.WebPurify.Wrapper</id>
+    <version>1.0</version>
+    <title>WebPurify REST API Wrapper</title>
+    <authors>Michael S. Richter</authors>
+    <owners>Michael S. Richter</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET Wrapper for Web Purify Profanity Filter REST API</description>
+    <releaseNotes>First Version</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>webpurify, profanity</tags>
+  </metadata>
+</package>
