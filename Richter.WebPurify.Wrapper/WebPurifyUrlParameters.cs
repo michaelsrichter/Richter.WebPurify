@@ -7,6 +7,10 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
+using System;
+using System.Security.Policy;
+using System.Web;
+
 namespace Richter.WebPurify.Wrapper
 {
     /// <summary>
@@ -87,7 +91,7 @@ namespace Richter.WebPurify.Wrapper
         /// </returns>
         public static string AddParam(this string url, WebPurifyArgument argument, string value)
         {
-            return url + "&" + ParamText(argument) + "=" + value.Trim();
+            return url + "&" + ParamText(argument) + "=" + value.Trim().ToEncodedUrl();
         }
 
         /// <summary>
@@ -241,6 +245,16 @@ namespace Richter.WebPurify.Wrapper
         public static string ToUrl(this bool b)
         {
             return b ? "1" : "0";
+        }
+
+        /// <summary>
+        /// Enocodes the string for valid use as a url
+        /// </summary>
+        /// <param name="url">The url to encode</param>
+        /// <returns></returns>
+        public static string ToEncodedUrl(this string url)
+        {
+            return HttpUtility.UrlEncode(url);
         }
 
         #endregion
