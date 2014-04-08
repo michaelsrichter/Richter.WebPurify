@@ -7,6 +7,8 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
+using System.Web;
+
 namespace Richter.WebPurify.Wrapper
 {
     #region Using
@@ -216,10 +218,10 @@ namespace Richter.WebPurify.Wrapper
             WebPurifySupportedLanguage language)
         {
             return
-                this.url.AddMethod(method).AddParam(WebPurifyArgument.ApiKey, this.key).AddParam(
-                    WebPurifyArgument.Text, text).AddParam(WebPurifyArgument.CheckEmail, matchEmail.ToUrl()).AddParam(
-                        WebPurifyArgument.CheckPhone, matchPhoneNumber.ToUrl()).AddParam(
-                            WebPurifyArgument.Language, WebPurifyUrlParameters.LanguageCode(language));
+                    this.url.AddMethod(method).AddParam(WebPurifyArgument.ApiKey, this.key).AddParam(
+                        WebPurifyArgument.Text, text).AddParam(WebPurifyArgument.CheckEmail, matchEmail.ToUrl()).AddParam(
+                            WebPurifyArgument.CheckPhone, matchPhoneNumber.ToUrl()).AddParam(
+                                WebPurifyArgument.Language, WebPurifyUrlParameters.LanguageCode(language));
         }
 
         /// <summary>
